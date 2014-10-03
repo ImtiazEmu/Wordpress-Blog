@@ -1,0 +1,94 @@
+.navbar-default {
+    background: none repeat scroll 0 0 #B4B4B4;
+    border-radius: 0;
+    border-width: 0;
+}
+.header-banner {
+    margin: 15px auto;
+    text-align: center;
+    width: 970px;
+}
+.navbar-brand {
+    padding: 13px;
+}
+.navbar-header {
+    width: 100%;
+}
+.navbar-header {
+    float: left;
+}
+.forced-horizontal {
+    float: right;
+}
+.forced-horizontal .navbar-nav {
+    margin-right: 10px;
+}
+.forced-horizontal .nav > li.de {
+    display: inline-block;
+    float: left;
+}
+.navbar-header .logo {
+    float: left;
+}
+a {
+    color: #806856;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: 0;
+    text-transform: uppercase;
+}
+a.navbar-brand img {
+    height: auto;
+    width: 100px;
+}
+.forced-horizontal .nav > li {
+    display: none;
+    float: right;
+}
+.forced-horizontal .nav > li.login {
+    display: inline-block;
+}
+.forced-horizontal .nav > li.position {
+    display: inline-block;
+}
+.forced-horizontal .nav > li.share {
+    display: inline-block;
+}
+.forced-horizontal .nav > li.contact {
+    display: inline-block;
+}
+.forced-horizontal .nav > li.help {
+    display: inline-block;
+}
+.nav > li.about-farmilio, .nav > li.terms-and-conditions {
+    float: right;
+    right: 50px;
+}
+.footer {
+    background: none repeat scroll 0 0 #B4B4B4;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+.footer ul {
+    padding-left: 10px;
+}
+.footer ul li {
+    height: 20px;
+    list-style: none outside none;
+    width: 291px;
+}
+.copyrights {
+    margin-top: 30px;
+}
+@media (max-width: 767px) {
+    .footer {
+        position: absolute;
+        bottom: auto;
+
+    }
+}
+
+#primary {
+    float: right;
+}

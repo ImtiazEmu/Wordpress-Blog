@@ -1,0 +1,258 @@
+.navbar-default {
+    background: none repeat scroll 0 0 #B4B4B4;
+    border-radius: 0;
+    border-width: 0;
+}
+.header-banner {
+    margin: 15px auto;
+    text-align: center;
+    width: 970px;
+}
+.navbar-brand {
+    padding: 13px;
+}
+.navbar-header {
+    width: 100%;
+}
+
+.forced-horizontal {
+    float: right;
+}
+.forced-horizontal .navbar-nav {
+    margin-right: 10px;
+}
+.forced-horizontal .nav > li.de {
+    display: inline-block;
+    float: left;
+}
+.navbar-header .logo {
+    float: left;
+}
+a {
+    color: #806856;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: 0;
+    text-transform: uppercase;
+}
+a.navbar-brand img {
+    height: auto;
+    width: 100px;
+}
+
+
+.forced-horizontal .nav > li {
+    display: none;
+    float: right;
+}
+
+
+.footer {
+    background: none repeat scroll 0 0 #B4B4B4;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+.footer ul {
+    padding-left: 10px;
+}
+.footer ul li {
+    height: 20px;
+    list-style: none outside none;
+    width: 291px;
+}
+.copyrights {
+    margin-top: 30px;
+}
+@media (max-width: 767px) {
+    .footer {
+        position: absolute;
+        bottom: auto;
+
+    }
+}
+
+#primary {
+    float: right;
+}
+
+/* viewports navbar */
+
+.forced-horizontal {
+    float: right;
+}
+
+.forced-horizontal .nav > li.de {
+    display: inline-block;
+    float: left;
+}
+.forced-horizontal .nav > li.de img {
+    width: 40px;
+    height: auto;
+}
+.forced-horizontal .nav > li.de > a {
+    padding-top: 8px;
+}
+.forced-horizontal .navbar-nav {
+    margin-right: 10px;
+}
+
+
+@media (max-width: 480px ) and (min-width: 320px) {
+    .header-banner .b-320 {
+        display: block;
+    }
+}
+
+@media (max-width: 767px ) and (min-width: 481px) {
+    .header-banner .b-480 {
+        display: block;
+    }
+}
+
+@media (max-width: 1024px ) and (min-width: 768px) {
+    .header-banner .b-768 {
+        display: block;
+    }
+}
+
+@media (max-width: 1150px ) and (min-width: 1025px) {}
+@media (max-width: 319px) and (min-width: 241px) {}
+@media (max-width: 1024px) and (min-width: 769px) {
+    .header-banner {
+        width: 768px;
+    }
+}
+
+@media (max-width: 479px) {
+    .forced-horizontal .navbar-nav {
+        margin-right: 0;
+    }
+
+    .navbar-header {
+        width: auto;
+    }
+
+    .own-offers .product-list li {
+        width: 100%;
+    }
+}
+
+@media (min-width: 480px) {
+    .forced-horizontal .nav > li.login {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 1150px) {
+    .main-content,
+    .cjs {
+        /*margin: 0.75%;
+        width: 98%;*/
+    }
+}
+
+@media (min-width: 600px) {
+    .forced-horizontal .nav > li.position {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 660px) {
+    .forced-horizontal .nav > li.share {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 768px) {
+    .forced-horizontal .nav > li.contact {
+        display: inline-block;
+    }
+
+    #bs-example-navbar-collapse-1 .navbar-nav {
+        margin: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .forced-horizontal .nav > li.help {
+        display: inline-block;
+    }
+
+    .nav > li.about-farmilio, .nav > li.terms-and-conditions {
+        float: right;
+        right: 50px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header-banner {
+        width: 80%;
+    }
+
+    .vertical-ad {
+        display: none;
+    }
+
+    .b-large {
+        display: none;
+    }
+
+    .own-offer .product-list li {
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .own-offers .product-list li {
+        height: auto;
+        width: 100%;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: auto;
+    }
+
+    .main-content {
+        padding-bottom: 350px;
+    }
+}
+
+@media (max-width: 320px) {
+    .navbar-header .logo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar-header .logo {
+        width: 54px;
+    }
+
+    .forced-horizontal .nav > li.de img {
+        width: 25px;
+        height: auto;
+    }
+
+    .navbar-brand {
+        font-size: 12px;
+        padding: 15px 0px 0px 5px;
+    }
+
+    a.navbar-brand img {
+        width: 80px;
+        height: auto;
+    }
+}
+
+@media (max-width: 240px) {
+    .forced-horizontal {
+        width: 28px;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        padding-right: 0;
+    }
+}
+
+/* viewports navbar */

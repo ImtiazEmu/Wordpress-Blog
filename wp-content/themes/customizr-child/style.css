@@ -1,0 +1,62 @@
+/*
+ Theme Name:  Customizr Child
+ Theme URI:    http://example.com/customizr-child/
+ Description:  Customizr Child Theme
+ Author:       Bazlur
+ Author URI:   http://example.com/Bazlur
+ Template:     customizr
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  customizr-child
+*/
+
+
+@import url("../customizr/style.css");
+@import url("../customizr/inc/assets/css/bootstrap.css");
+
+.header-banner {
+    margin: 15px auto;
+    text-align: center;
+    width: 970px;
+}
+
+.header-banner {
+    width: 970px;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.header-banner  img {
+    width: 100%;
+    height: auto;
+}
+
+.header-banner .b-320,
+.header-banner .b-480,
+.header-banner .b-768 {
+    display: none;
+}
+
+@media (max-width: 480px ) and (min-width: 320px) {
+    .header-banner .b-320 {
+        display: block;
+    }
+}
+
+@media (max-width: 767px ) and (min-width: 481px) {
+    .header-banner .b-480 {
+        display: block;
+    }
+}
+
+@media (max-width: 1024px ) and (min-width: 768px) {
+    .header-banner .b-768 {
+        display: block;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .header-banner {
+        width: 768px;
+    }
+}
